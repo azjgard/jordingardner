@@ -1,0 +1,60 @@
+.ToggleDrawer {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  background-color: #eee;
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #eee;
+  padding-top: 3px;
+}
+
+.NavContainer {
+  position: fixed;
+  bottom: 0;
+  height: 56px;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  -webkit-transition: transform ease-in-out 0.3s;
+  -moz-transition: transform ease-in-out 0.3s;
+  transition: transform ease-in-out 0.3s;
+}
+
+.NavContainer i {
+  -webkit-transition: transform ease-in-out 0.5s;
+  -moz-transition: transform ease-in-out 0.5s;
+  transition: transform ease-in-out 0.5s;
+}
+
+.NavContainer i.open {
+  transform: rotateX(0deg);
+}
+
+.NavContainer i.open {
+  transform: rotateX(180deg);
+}
+
+.NavContainer.visible {
+  /* transform: translateY(0); */
+}
+
+.MobileNavigation {
+  background-color: #eee !important;
+}
+
+.pullable {
+  top: -25px;
+  height: 25px;
+  width: 100%;
+  background-color: #eee;
+  z-index: 999;
+  font-size: 20px;
+  color: #000;
+  position: absolute;
+  border-top: 1px solid #cecece;
+}

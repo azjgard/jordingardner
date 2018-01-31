@@ -1,0 +1,24 @@
+.Portfolio,
+.Portfolio .header,
+.Portfolio .content,
+.Portfolio .footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Portfolio .header,
+.Portfolio .content,
+.Portfolio .footer {
+  justify-content: center;
+}
+
+.Portfolio .header,
+.Portfolio .footer {
+  flex-grow: 1;
+}
+
+.Portfolio .content {
+  flex-grow: 5;
+  padding-top: 10px;
+  justify-content: flex-start;
+}

@@ -1,0 +1,38 @@
+.Card {
+  height: 300px;
+  box-shadow: 1px 4px 15px #eee !important;
+}
+
+.CardMedia,
+.Card > div {
+  height: 100%;
+}
+
+.CardTitle {
+  padding-top: 5px !important;
+}
+
+/* Title */
+.CardTitle > span:first-child {
+  font-size: 20px !important;
+  font-weight: 500;
+}
+
+/* Subtitle */
+.CardTitle > span:nth-child(2) {
+  font-size: 16px !important;
+  font-family: "Abel", sans-serif;
+}
+
+.Card,
+.CardMedia,
+.Card > div,
+.CardMedia > div,
+.CardMedia > div > div {
+  border-radius: 10px !important;
+}
+
+.CardMedia > div > div > div {
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
